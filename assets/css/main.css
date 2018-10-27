@@ -3890,3 +3890,7 @@ input, select, textarea {
 			}
 
 		}
+
+    #socials {
+      list-style: none;
+    }
