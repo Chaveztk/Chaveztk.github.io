@@ -2479,6 +2479,11 @@ input, select, textarea {
 
 /* Icon */
 
+.icon-images{
+  height: 50px;
+  width: 50px;
+}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
