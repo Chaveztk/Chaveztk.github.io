@@ -3237,9 +3237,8 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-color: #282a2d;
 		}
-
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: rgba(88, 113, 143, 1);
 		}
 
 		.wrapper.style2 {
@@ -3516,7 +3515,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: rgba(88, 113, 143, 1);
+		background: rgb(35, 56, 83);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3753,14 +3752,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #383434;
+				background: #ffffff;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #35333a, #b7834e);
-				background-image: -webkit-linear-gradient(to right, #35333a, #b7834e);
-				background-image: -ms-linear-gradient(to right, #35333a, #b7834e);
-				background-image: linear-gradient(to right, #35333a, #b7834e);
+				background-image: -moz-linear-gradient(to left, #fff, rgb(88, 113, 143));
+				background-image: -webkit-linear-gradient(to left, #fff, rgb(88, 113, 143));
+				background-image: -ms-linear-gradient(to left, #fff, rgb(88, 113, 143));
+				background-image: linear-gradient(to left, #fff, rgb(88, 113, 143));
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
