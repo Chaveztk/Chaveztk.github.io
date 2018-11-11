@@ -1,10 +1,6 @@
 @import url(font-awesome.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -98,7 +94,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -164,7 +160,7 @@ input, select, textarea {
 	strong, b {
 		color: #ffffff;
 		font-weight: bold;
-	}
+	}©
 
 	em, i {
 		font-style: italic;
@@ -172,6 +168,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+    color: #ffffff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1997,8 +1994,9 @@ input, select, textarea {
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 33.33333%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
+      border-left: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
@@ -2487,7 +2485,24 @@ input, select, textarea {
 /* Icon */
 
 .icon-images{
-  width: 300px;
+  max-height: 70%;
+  max-width: 77%;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.logo-container{
+  width: 33.33%;
+  height: 100%;
+  position: relative;
 }
 
 	.icon {
@@ -2550,6 +2565,10 @@ input, select, textarea {
 				}
 
 /* Image */
+
+  .gif-image{
+    background-repeat: no-repeat;
+  }
 
 	.image {
 		border-radius: 0.25em;
@@ -2623,6 +2642,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+      text-align: center;
 		}
 
 		ul.alt {
@@ -3005,7 +3025,7 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: cover;
+			background-size: contain;
 			border-radius: 0;
 			display: block;
 			position: relative;
@@ -3244,7 +3264,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: rgb(55,55,55);
 		}
 
 		.wrapper.style2-alt {
@@ -3259,6 +3279,10 @@ input, select, textarea {
 			background-color: #953d75;
 		}
 
+
+    #three{
+          background-color: rgb(95,95,95);
+    }
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3850,7 +3874,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-image: linear-gradient(to left, #fff, rgb(88, 113, 143));
 						}
 
 		}
