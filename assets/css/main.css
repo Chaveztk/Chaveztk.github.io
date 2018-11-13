@@ -92,6 +92,10 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+  
+  #projects{
+    text-align: center;
+  }
 
 	body {
 		background: black;
