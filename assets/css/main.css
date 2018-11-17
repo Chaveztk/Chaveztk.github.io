@@ -92,9 +92,12 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-  
-  #projects{
+
+  #about{
     text-align: center;
+    padding: 1em 4em 2em 4em;
+    background-color: #393b3e;;
+
   }
 
 	body {
@@ -2571,7 +2574,8 @@ input, select, textarea {
 /* Image */
 
   .gif-image{
-    background-repeat: no-repeat;
+    min-height: 494px;
+
   }
 
 	.image {
@@ -3029,7 +3033,7 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: contain;
+			background-size: cover;
 			border-radius: 0;
 			display: block;
 			position: relative;
@@ -3512,6 +3516,10 @@ input, select, textarea {
 
 /* Footer */
 
+  #footer-padding{
+    padding: 2em 4em 1em 4em;
+  }
+
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
 	}
@@ -3892,6 +3900,10 @@ input, select, textarea {
 		}
 
 /* Intro */
+
+  #title-page{
+    text-align: center;
+  }
 
 	#intro {
 		background-attachment: fixed;
